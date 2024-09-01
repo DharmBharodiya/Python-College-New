@@ -14,5 +14,11 @@ def swap2(a, b):
     b = temp
     return a,b
 
+def swap3(a,b):
+    a = a + b
+    b = a - b
+    a = a - b
+    return a,b
+
 swap(a, b)
-print("After swapping: ", swap2(a,b))
+print("After swapping: ", swap3(a,b))

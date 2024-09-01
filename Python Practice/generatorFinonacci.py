@@ -4,7 +4,14 @@ def fib(num):
         yield p, q
         p, q = q, p+q
 
-x = fib(5)
+x = fib(10)
+print("The fibonacci numbers are as followed.")
 
-for i in x:
-    print(i)
+print(next(x))
+print(next(x))
+print(next(x))
+print(next(x))
+print(next(x))
+print(next(x))
+print(next(x))
+# print(next(x)) # this will throw an "StopIteration" error as the end of iterable is reached

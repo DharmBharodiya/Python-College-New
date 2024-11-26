@@ -13,5 +13,5 @@ def patientDetails(name, lastname):
 def employeeDetails(name, position):
     print(f"Name: {name} Position: {position}")
 
-patientDetails("Dharm","Bharodiya")
+patientDetails("Dharm","Jadugar")
 employeeDetails("Ramu","Karigar")

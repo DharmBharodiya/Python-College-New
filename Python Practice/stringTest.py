@@ -13,7 +13,7 @@ print("is" in stringTwo)
 
 x = "apple#banana#melon#orange"
 
-newX = x.split("#")
+newX = x.split("#", 2)
 
 print(newX)
 

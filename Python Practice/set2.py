@@ -13,7 +13,7 @@ for i in set2:
 
 #the set() method can also be used to create sets in python
 theList = [1,2,3,4,4,5]
-setFromList = set(theList)
+setFromList = set(theList)#duplicates 4 will be removed and it'll only appear for one time
 print(setFromList)
 
 #you can also create empty set in python
@@ -103,7 +103,7 @@ print(set8)
 # symmetric_difference() -> this method returns a new set made out of only non-duplicate elements
 
 # isdisjoint() method -> it returns whether the two sets have intersection or not
-# basically it returns true if there are no duplicate elements in the given set
+# basically it returns "TRUE" if there are no duplicate elements in the given sets
 
 set10 = {11,12,14,15}
 set11 = {1,2,4,67}

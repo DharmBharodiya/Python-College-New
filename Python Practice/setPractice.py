@@ -48,6 +48,7 @@ print(result3)
 set1.update(set2, set3)
 print(set1)
 
+# intersection is used to keep only the duplicate elements out of sets under consideration and not the other elements
 x = {3,4}
 y = {3,4,5,6}
 x.intersection_update(y)
@@ -56,5 +57,9 @@ print(x)
 newResult = x.intersection(y)
 print(newResult)
 
-print(x.isdisjoint(y))
-print(x.issubset(y))
+result4 = x.symmetric_difference(y)
+print(result4)
+
+print(x.isdisjoint(y))# False because there are duplicate/same elements in both sets
+print(x.issubset(y))# True because elements in Y are there in X, so Y is a subset of X
+print(y.issuperset(x))# True because X is the superset of Y

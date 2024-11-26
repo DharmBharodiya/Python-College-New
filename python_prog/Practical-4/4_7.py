@@ -1,0 +1,6 @@
+T=(1 ,3,5,7) 
+n=int(input("enter element that you want to remove (1,3,5,7):"))
+L=list(T) 
+L.remove(n)  
+T=tuple(L) 
+print("list after removing element",T) 

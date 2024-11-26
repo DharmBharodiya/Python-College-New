@@ -27,3 +27,7 @@ print(theNewString.format(name='dharm', age='14'))
 numList = ['1', '2', '3', '4']
 separator = ', '
 print(separator.join(numList))
+
+
+unseen ="\n"
+print(unseen.isprintable())

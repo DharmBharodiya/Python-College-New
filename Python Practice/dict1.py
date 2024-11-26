@@ -63,6 +63,10 @@ valueList = ["noun","adjective","pronoun"]
 fromKeysDict = dict.fromkeys(keyList,valueList)
 print(fromKeysDict)
 
+dictList = list(car.items())
+print("THE CAR LIST IS AS FOLLOWED")
+print(dictList)
+
 
 theDays = ["Sunday","Monday","Tuesday","Wednesday"]
 print(theDays[-3:-1])

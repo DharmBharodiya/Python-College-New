@@ -7,7 +7,7 @@ children("dharm","jain")
 def childrens(*kids):#in the case when you don't know how many arguments are going to be passed
     print("The kid in the middle is: ", kids[1])
 
-childrens("dharm","kendall","justin")
+childrens("dharm","kendall","gigi")
 
 #keywords arguments
 def people(p1, p2, p3):
